@@ -8,7 +8,7 @@ def generator(amount) -> list[str]:
     # official words are not used to avoid confusion
 
     n_syllable_weight = 0.25
-    starts_with_vowel_weight = 5 / 9
+    starts_with_vowel_weight = 5 / 14
     n_second_letter_weight = 2 / 9
     break_weight = 2 / 3
 
